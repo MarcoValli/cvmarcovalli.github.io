@@ -1,0 +1,234 @@
+@font-face{
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+body{
+
+	hyphens: auto;
+		text-align: justify;
+
+	font-family: 'Montserrat', cursive;
+	font-size: 1.3em;
+}
+section {
+
+	hyphens: auto;
+		text-align: justify;
+
+	background: gray;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-family: 'Montserrat', cursive;
+	font-size: 1.3em;
+}
+h2{
+	hyphens: auto;
+	text-align: center;
+	font-family: 'Montserrat', cursive;
+	font-size: 3em;
+}
+p{
+font-weight: lighter;
+	hyphens: auto;
+	text-align: justify;
+	font-family: 'Montserrat', cursive;
+	font-size: 1.3em;
+}
+.navbar{
+	background-color: #1e1e1c;
+	margin: 0;
+	font-family: 'Montserrat', cursive;
+
+	
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:focus{
+	background-color:#1e1e1c;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 100px;
+	color:#EC7A55;
+}
+.navbar .container-fluid{
+	background-color:#1e1e1c;
+	border: 0px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color:#ffffff;
+}
+.navbar-brand{
+	background-color:#1e1e1c;
+	width: 120px;
+	height: 120px;
+	position: absolute;
+}
+.navbar-brand img {
+	
+	border: 5px solid #1e1e1c;
+ 
+}
+
+#intro{
+	background-image: url('immagini/arranzio2.jpg') ;
+	
+	background-color:rgba(0,0,0,.7) ;
+	font-family: 'Montserrat', cursive;
+}
+.container-fluid .jumbotron{
+	color:white;
+	background-color: rgba(0,0,0,.5);
+	font-family: 'Montserrat', cursive;
+
+}
+.container-fluid .jumbotron h4{
+	text-align: left 100%;
+}
+#Experiences{	
+	color:#ffffff;	
+	background-color:#1e1e1c ;
+	padding: 40px;
+	font-weight: lighter;
+	
+	font-family: 'Montserrat', cursive;
+}
+.cards h2{
+	font-family: 'Montserrat', cursive;
+	font-size: 2.5;
+
+	
+}
+
+#cards{
+	padding: 40px;
+	background-color: #1e1e1c;
+	padding-bottom: 25px;
+	font-family: 'Montserrat', cursive; 
+}
+
+.sliding-card{
+	height: 300px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+	
+}
+
+.sliding-card .card-slider{
+	-webkit-transition-duration: .3s; /* Safari */
+    transition-duration: .3s;
+    position: absolute;
+    width: 100%;
+    cursor: pointer;
+}
+
+.sliding-card .card-slider:hover{
+	margin-top: -300px;
+}
+
+.sliding-card .card-up{
+	height: 300px;
+}
+
+.sliding-card .card-down{
+	height: 300px;
+	background: rgba(0, 0, 0, .75);
+	color: white;
+	padding: 20px;
+	font-size: .75em;
+}
+
+.sliding-card .card-down ul{
+	list-style: none;
+	padding: 0;
+}
+.sliding-card .card-down ul li span {
+	color:white;
+	font-weight: bold;
+}
+#ts{
+	color: white;
+	background: url('immagini/arranzio.jpg') ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0 ;
+	
+	
+}
+#ts>div{
+	background-color: rgba(0,0,0,.7);
+	height: 100%;
+	width: 100%;
+	padding: 40px;
+}
+#AboutMe{
+	background-color:#1e1e1c;
+	color:#ffffff;
+}
+#ss{
+	background-color: #1e1e1c;
+	color:#ffffff;
+}
+#foot{
+	background-color: #1e1e1c ;
+	padding:10px; 	
+ 	color:#ffffff;
+}
+
+#designTools{
+	background-color: rgba(0,0,0,0);
+}
+
+.progress-item {
+    position : relative;
+    }
+
+.progress-item .progress-title {
+    font-size     : 12px;
+    font-weight   : 400;
+    display       : inline-block;
+    margin-bottom : 5px;
+    color:white;
+    }
+
+.progress-item .progress {
+    height        : 10px;
+    width         : 300px;
+    box-shadow    : none;
+    border-radius : 10px;
+    background    : #f4f4f4;
+    }
+
+.progress-item .progress-bar {
+    background-color : grey;
+    border-radius    : 10px;
+    box-shadow       : none;
+    text-align       : right;
+    }
+
+.progress-item .progress-percent {
+    font-size        : 10px;
+    background-color : #9e9e9b;
+    position         : absolute;
+    top              : 5px;
+    padding          : 0 8px;
+    border-radius    : 3px;
+    }
+
+.progress-item .progress-percent::before {
+    content      : "";
+    position     : absolute;
+    left         : 0;
+    bottom       : -4px;
+    border-top   : 6px solid #9e9e9b;
+    border-right : 8px solid transparent;
+    }
+
+@media (max-width: 768px) {
+    .progress-wrapper{
+        margin-bottom: 50px;
+        }
+    }
