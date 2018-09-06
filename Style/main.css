@@ -39,8 +39,9 @@ font-weight: lighter;
 #intro{
 	/*background-image: url('../immagini/arranzio2.jpg') ;*/
 	
-	background-color:rgba(0,30,30,.7) ;
+	background-color:rgba(0,90,30,.7) ;
 	font-family: 'Montserrat', cursive;
+	text-decoration-color: white;
 	position: center;
 }
 
