@@ -29,3 +29,4 @@ $(function() {
         $(b).slideToggle(), $(".structure-details:not(" + b + ")").slideUp()
     })
 });
+
