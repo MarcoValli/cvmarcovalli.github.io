@@ -37,9 +37,34 @@ font-weight: lighter;
 }
 
 
+@keyframes animafreccia {
+	from{transform: scale(1);}
+	to{transform:  scale(1.2);}
+}
+
+
+@keyframes sort {
+	from{transform: rotate(0deg);}
+	to{transform: rotate(360deg);}
+}
+
+.freccia {
+
+	color: red;
+	position: absolute;
+	height: 100px;
+	width:100px;
+	top :80vh;
+	left:48%;
+	
+}
+
+#prov{
+	animation: animafreccia 0.8s infinite alternate;
+}
 
 #intro{
-	/*background-image: url('../immagini/arranzio2.jpg') ;*/
+	background-image: url('../immagini/gabriel.jpg') ;
 
 	background-color:rgba(0,90,30,.7) ;
 	font-family: 'Montserrat', cursive;
@@ -56,6 +81,7 @@ font-weight: lighter;
 
 
 }
+
 
 
 #Experiences{	
