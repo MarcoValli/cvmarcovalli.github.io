@@ -36,6 +36,8 @@ font-weight: lighter;
 	font-size: 1.3em;
 }
 
+
+
 #intro{
 	/*background-image: url('../immagini/arranzio2.jpg') ;*/
 
@@ -56,13 +58,17 @@ font-weight: lighter;
 }
 
 
-
 #Experiences{	
 	color:#ffffff;	
 	background-color:#1e1e1c ;
 	padding: 40px;
 	font-weight: lighter;
 	font-family: 'Montserrat', cursive;
+}
+
+#clash{
+	/*background-image:  url('../immagini/arranzio2.jpg')*/
+
 }
 .cards h2{
 	font-family: 'Montserrat', cursive;
@@ -87,6 +93,7 @@ font-weight: lighter;
 	overflow: hidden;
 	
 }
+
 
 .sliding-card .card-slider{
 	-webkit-transition-duration: .3s; /* Safari */
