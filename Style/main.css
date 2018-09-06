@@ -37,24 +37,20 @@ font-weight: lighter;
 }
 
 #intro{
-	background-image: url('../immagini/arranzio2.jpg') ;
+	/*background-image: url('../immagini/arranzio2.jpg') ;*/
 	
-	background-color:rgba(0,0,0,.7) ;
+	background-color:rgba(0,30,30,.7) ;
 	font-family: 'Montserrat', cursive;
+	position: center;
 }
-.container-fluid .jumbotron{
-	color:white;
-	background-color: rgba(0,0,0,.5);
-	font-family: 'Montserrat', cursive;
 
-}
+
 
 #Experiences{	
 	color:#ffffff;	
 	background-color:#1e1e1c ;
 	padding: 40px;
 	font-weight: lighter;
-	
 	font-family: 'Montserrat', cursive;
 }
 .cards h2{
