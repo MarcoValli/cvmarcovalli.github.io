@@ -38,15 +38,21 @@ font-weight: lighter;
 
 #intro{
 	/*background-image: url('../immagini/arranzio2.jpg') ;*/
-	
+
 	background-color:rgba(0,90,30,.7) ;
 	font-family: 'Montserrat', cursive;
 	position: center;
+	height: 90vh;
+
+
 
 }
 #intro h1{
 	color: white;
-	position: center;
+	text-align: center;
+	padding-top: 20%;
+
+
 }
 
 
