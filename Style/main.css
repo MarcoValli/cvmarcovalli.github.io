@@ -35,38 +35,6 @@ font-weight: lighter;
 	font-family: 'Montserrat', cursive;
 	font-size: 1.3em;
 }
-.navbar{
-	background-color: #1e1e1c;
-	margin: 0;
-	font-family: 'Montserrat', cursive;
-
-	
-}
-.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:focus{
-	background-color:#1e1e1c;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-right: 100px;
-	color:#EC7A55;
-}
-.navbar .container-fluid{
-	background-color:#1e1e1c;
-	border: 0px;
-}
-.navbar-default .navbar-nav>li>a:hover{
-	color:#ffffff;
-}
-.navbar-brand{
-	background-color:#1e1e1c;
-	width: 120px;
-	height: 120px;
-	position: absolute;
-}
-.navbar-brand img {
-	
-	border: 5px solid #1e1e1c;
- 
-}
 
 #intro{
 	background-image: url('../immagini/arranzio2.jpg') ;
@@ -80,9 +48,7 @@ font-weight: lighter;
 	font-family: 'Montserrat', cursive;
 
 }
-.container-fluid .jumbotron h4{
-	text-align: left 100%;
-}
+
 #Experiences{	
 	color:#ffffff;	
 	background-color:#1e1e1c ;
