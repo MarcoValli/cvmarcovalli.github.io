@@ -49,8 +49,6 @@ font-weight: lighter;
 }
 
 .freccia {
-
-	color: red;
 	position: absolute;
 	height: 100px;
 	width:100px;
@@ -59,32 +57,28 @@ font-weight: lighter;
 	
 }
 
+
+
 #prov{
 	animation: animafreccia 0.8s infinite alternate;
 }
 
-#intro{
+.intro{
 	background-image: url('../immagini/gabriel.jpg') ;
 
-	background-color:rgba(0,90,30,.7) ;
 	font-family: 'Montserrat', cursive;
 	position: center;
 	height: 90vh;
-
-
-
 }
-#intro h1{
+
+.intro h1{
 	color: white;
 	text-align: center;
 	padding-top: 20%;
-
-
 }
 
 
-
-#Experiences{	
+#anagrafica{	
 	color:#ffffff;	
 	background-color:#1e1e1c ;
 	padding: 40px;
@@ -92,10 +86,7 @@ font-weight: lighter;
 	font-family: 'Montserrat', cursive;
 }
 
-#clash{
-	/*background-image:  url('../immagini/arranzio2.jpg')*/
 
-}
 .cards h2{
 	font-family: 'Montserrat', cursive;
 	font-size: 2.5;
@@ -122,7 +113,7 @@ font-weight: lighter;
 
 
 .sliding-card .card-slider{
-	-webkit-transition-duration: .3s; /* Safari */
+	-webkit-transition-duration: .3s; 
     transition-duration: .3s;
     position: absolute;
     width: 100%;
@@ -170,14 +161,41 @@ font-weight: lighter;
 	width: 100%;
 	padding: 40px;
 }
+
+
 #AboutMe{
 	background-color:#1e1e1c;
 	color:#ffffff;
 }
-#ss{
+#informatica{
 	background-color: #1e1e1c;
 	color:#ffffff;
 }
+
+ul{
+	list-style: none;
+}
+
+#esercizi li{
+
+	right: 50%;
+	text-align: center;
+	background-color: rgba(50,50,50,.8);
+	height: 50px;
+	width: 200px;
+
+
+}
+#esercizi a{
+
+padding: 15px;
+margin:15px;
+margin-top: 15px;
+
+
+}
+
+
 #foot{
 	background-color: #1e1e1c ;
 	padding:10px; 	
