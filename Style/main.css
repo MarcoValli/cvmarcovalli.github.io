@@ -65,6 +65,7 @@ font-weight: lighter;
 
 .intro{
 	background-image: url('../immagini/gabriel.jpg') ;
+	background-repeat: no-repeat;
 
 	font-family: 'Montserrat', cursive;
 	position: center;
@@ -95,7 +96,7 @@ font-weight: lighter;
 }
 
 #cards{
-	padding: 40px;
+	padding: 7%;
 	background-color: #1e1e1c;
 	padding-bottom: 25px;
 	font-family: 'Montserrat', cursive; 
@@ -190,11 +191,15 @@ ul{
 
 padding: 15px;
 margin:15px;
-margin-top: 15px;
 
 
 }
 
+#esercizi{
+position: inherit;
+
+margin:10%;
+}
 
 #foot{
 	background-color: #1e1e1c ;
