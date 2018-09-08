@@ -137,6 +137,7 @@ font-weight: lighter;
 	font-size: .75em;
 }
 
+
 .sliding-card .card-down ul{
 	list-style: none;
 	padding: 0;
@@ -147,7 +148,7 @@ font-weight: lighter;
 }
 #ts{
 	color: white;
-	background: url('../immagini/arranzio.jpg') ;
+	background: url('../immagini/gyb.JPG') ;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -163,6 +164,11 @@ font-weight: lighter;
 	padding: 40px;
 }
 
+#illustration{
+	background-color:#1e1e1c;
+	color:#ffffff;
+	height: 500px;
+}
 
 #AboutMe{
 	background-color:#1e1e1c;
