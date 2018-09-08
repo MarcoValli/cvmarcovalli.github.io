@@ -37,28 +37,49 @@ font-weight: lighter;
 }
 
 
+@keyframes animafreccia {
+	from{transform: scale(1);}
+	to{transform:  scale(1.2);}
+}
 
-#intro{
-	/*background-image: url('../immagini/arranzio2.jpg') ;*/
 
-	background-color:rgba(0,90,30,.7) ;
+@keyframes sort {
+	from{transform: rotate(0deg);}
+	to{transform: rotate(360deg);}
+}
+
+.freccia {
+	position: absolute;
+	height: 100px;
+	width:100px;
+	top :80vh;
+	left:48%;
+	
+}
+
+
+
+#prov{
+	animation: animafreccia 0.8s infinite alternate;
+}
+
+.intro{
+	background-image: url('../immagini/gabriel.jpg') ;
+	background-repeat: no-repeat;
+
 	font-family: 'Montserrat', cursive;
 	position: center;
 	height: 90vh;
-
-
-
 }
-#intro h1{
+
+.intro h1{
 	color: white;
 	text-align: center;
 	padding-top: 20%;
-
-
 }
 
 
-#Experiences{	
+#anagrafica{	
 	color:#ffffff;	
 	background-color:#1e1e1c ;
 	padding: 40px;
@@ -66,10 +87,7 @@ font-weight: lighter;
 	font-family: 'Montserrat', cursive;
 }
 
-#clash{
-	/*background-image:  url('../immagini/arranzio2.jpg')*/
 
-}
 .cards h2{
 	font-family: 'Montserrat', cursive;
 	font-size: 2.5;
@@ -78,7 +96,7 @@ font-weight: lighter;
 }
 
 #cards{
-	padding: 40px;
+	padding: 7%;
 	background-color: #1e1e1c;
 	padding-bottom: 25px;
 	font-family: 'Montserrat', cursive; 
@@ -96,7 +114,7 @@ font-weight: lighter;
 
 
 .sliding-card .card-slider{
-	-webkit-transition-duration: .3s; /* Safari */
+	-webkit-transition-duration: .3s; 
     transition-duration: .3s;
     position: absolute;
     width: 100%;
@@ -119,6 +137,7 @@ font-weight: lighter;
 	font-size: .75em;
 }
 
+
 .sliding-card .card-down ul{
 	list-style: none;
 	padding: 0;
@@ -129,7 +148,7 @@ font-weight: lighter;
 }
 #ts{
 	color: white;
-	background: url('../immagini/arranzio.jpg') ;
+	background: url('../immagini/gyb.JPG') ;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -144,14 +163,50 @@ font-weight: lighter;
 	width: 100%;
 	padding: 40px;
 }
+
+#illustration{
+	background-color:#1e1e1c;
+	color:#ffffff;
+	height: 500px;
+}
+
 #AboutMe{
 	background-color:#1e1e1c;
 	color:#ffffff;
 }
-#ss{
+#informatica{
 	background-color: #1e1e1c;
 	color:#ffffff;
 }
+
+ul{
+	list-style: none;
+}
+
+#esercizi li{
+
+	right: 50%;
+	text-align: center;
+	background-color: rgba(50,50,50,.8);
+	height: 50px;
+	width: 200px;
+
+
+}
+#esercizi a{
+
+padding: 15px;
+margin:15px;
+
+
+}
+
+#esercizi{
+position: inherit;
+
+margin:10%;
+}
+
 #foot{
 	background-color: #1e1e1c ;
 	padding:10px; 	

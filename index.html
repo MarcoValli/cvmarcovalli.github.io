@@ -9,48 +9,52 @@
 
 		<link href="Style\main.css" rel="stylesheet" type="text/css">
 		<link href="bootstrap-3.3.4\css\bootstrap.min.css" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
-		<script type="text/javascript" src="Scripts\jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="jquery.min.js"></script>
 		
 		<script type="text/javascript" src="bootstrap-3.3.4\js\bootstrap.min.js"></script>
+
 	</head>
 
-	<body>
 
-		<!--INTRO-->
-		<section id="intro" class="container-fluid">
+
+	<body>
+		<section  class="container-fluid, intro">
 			<div class="container">
 				<div class="row" >
 					<div class="col-md-12">
-					  		<h1 >Hi, I'm Gabriel Byrne</h1>
+					  		<h1 class="ciao" >Hi, I'm Gabriel Byrne</h1>	
+					</div>
+					<div class="freccia">
+						<a href="#AboutMe" id="first" style="cursor: pointer; transition: 0.5s;">
+							<img src="immagini/luca.png" height="60px" width="60px" id="prov">
+ 						</a>
 					</div>
 				</div>
 			</div>
 		</section>
 
 
-	
-		<section id="anagrafica" class="container-fluid">
-		<div>
+		<section id="AboutMe" class="container-fluid">
 			<div class="container">
-					<div class="row">
-
-						<div class="col-md-6">
-				<h3 style="text-align:left;">Personal Data</h3>
-				<br>
-					<p style="font-size:0.75em;"> Birth: 4th of November 1996, Desio, MB</p>
-					<br>
-					<br>
-					<h3 style="text-align:left;">Education</h3> 
-					<br>
-
-
-					<p style="font-size:0.75em;">Graduated in Scientific Highschool <br> 72/100</p>
-					<p style="font-size:0.75em;">Attending Politecnico di Milano - Bachelor degree in Communication Design </p>
-				</div>
-				<div class="col-md-6" style="padding-left: 20%;" >
-				<h3 style="text-align:left; ">Passions</h3>
+				<div class="row">
+					<h2>About Me</h2>
+					<div class="col-md-4">
+						<h3>Origins</h3>
+						<p style="font-size:0.85em;">I’m 21 years old and I’m currently studying Communication Design at Politecnico of Milan. I graduated High School in Desio’s Scientific Institute during the year 2015. Since I was little I’ve been interested in drawing, spending most of my time practicing and learning the subject. I love illustration and all the softwares that help getting the most out of your projects but I still prefer the feeling of real paper.  
+					 </p>
+					</div>
+					<div class="col-md-4">
+						<h3>Education</h3>
+						<br>
+						<br>
+						<p style="font-size:0.85em;">Birth: 4th of November 1996, Desio, MB </p>
+						<br>
+						<p style="font-size:0.85em;">Attending Politecnico di Milano - Bachelor degree in Communication Design </p>
+					</div>
+					<div class="col-md-4">
+					
+					<h3 style="text-align:left; ">Passions</h3>
 				<br>
 				<h4 style="font-style: italic">Illustration</h4>
 				
@@ -59,37 +63,38 @@
 
 					<h4 style="font-style: italic"> Music </h4> <p id="clash" style="font-size:0.75em;">
 					Favorite Band: <a href="https://www.youtube.com/watch?v=AL8chWFuM-s">Let's find out</a></p>
-				</div>
+
+
 					</div>
+				</div>
 			</div>
-		</div>
-		
-
-		
 		</section>
-		
 
-		<section id="cards" class="container-fluid" style="padding-left: 8%">
-		<h1 style="color:white; padding-left: 43%; padding-bottom: 5%;">Projects</h2>
-		
+
+	
+
+		<section id="cards" class="container-fluid" >
+		<h2 style="color:white; text-align: center; padding-bottom: 5%;">Projects</h2>
+		<div >
 		<div class="col-md-3 " >
-						<div style="background-image: url('immagini/Spotify.jpg'); background-position: top 50%; " class="sliding-card">
+						<div style="background-image: url('immagini/wrk.JPG'); background-position: top 50%; " class="sliding-card">
 							<div class="card-slider">
 								<div class="card-up"></div>
 								
 								<div class="card-down"> 
 									<ul>
 										<li>
-											<span>Titolo:</span> Spotify Tone
+											<span>Titel:</span> MDMA
 										</li>
 										<br>
 										<li>
 										</li>
 										<li>
-											<span>Corso:</span> Licensing e Brand Etension
+											<span>Course:</span> Workshop Tirocinante
 										</li>
 										<li>
-											<span>Descrizione:</span> Tone è uno speaker wireless che permette agli utenti di creare playlist temporanee collaborative grazie a una memoria dedicata collegata all’account del possessore, senza il bisogno di collegarsi a turno al dispositivo o condividere link tramite social. 
+											<span>Description:</span> A map that outlines a one-day journey through Milan’s biggest urban park: Milano Parco Nord. The projects is called “MDMA” since it wants to create an interactive experience based on the following activities: Meditiation, Music and Arts.
+
 										</li>
 									</ul>
 								</div>
@@ -99,23 +104,24 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-3">
-						<div style="background-image: url('immagini/vans.jpg');background-position:left 35% top 50%;" class="sliding-card">
+						<div style="background-image: url('immagini/foto.jpg');background-position:left 35% top 50%;" class="sliding-card">
 							<div class="card-slider">
 								<div class="card-up"></div>
 								
 								<div class="card-down"> 
 									<ul>
 										<li>
-											<span>Titolo:</span> Spring Off the Wall
+											<span>Title:</span> Jacques-André Boiffard
 										</li>
 										</li>
 										<br>
 										<li>
 										<li>
-											<span>Corso:</span> Polimi X Vans
+											<span>Course:</span> Storia della Comunicazione Visiva
 										</li>
 										<li>
-											<span>Descrizione:</span> Le esperienze vissute all’interno dell’allestimento cercano di sensibilizzare l’utente verso le emozioni e sensazioni che il mondo dello skate offre. Ecco che nasce “Spring off the Wall. New designer’s drop in”, un’ esperienza che ha coinvolto la creatività di un gruppo di giovani aspiranti designer.
+											<span>Description:</span> This editorial project analyzes Jacques-André Boiffard’s life and works. Boiffard was a French photographer whose style was very peculiar, in fact he was also a doctor and many of his photographs remind radiographs.
+
 
 										</li>
 									</ul>
@@ -125,24 +131,24 @@
 					</div>
 
 					<div class="col-md-3">
-						<div style="background-image: url('immagini/frame.jpg');
-						background-position: top: 50%;" class="sliding-card" >
+						<div style="background-image: url('immagini/london.png'); background-position:left 20% top 50%; " class="sliding-card">
 							<div class="card-slider">
 								<div class="card-up"></div>
 								
 								<div class="card-down"> 
 									<ul>
 										<li>
-											<span>Titolo:</span> FRAME Museo del progetto grafico
+											<span>Title:</span> London Calling
 										</li>
 										</li>
 										<br>
 										<li>
 										<li>
-											<span>Corso:</span> Lab. di Comunicazione visiva
+											<span>Course:</span> Fondamenti del Progetto
 										</li>
 										<li>
-											<span>Descrizione:</span> Frame museo del progetto grafico è il concept di useo della grafica per l’aiap che si pone come cornice a risalto del contenuto, un segno grafico semplice e pulito caratterizza la comunicazione del museo, ino spigolo che vuole distinguere e caratterizzare il suo contenuto.
+											<span>Description:</span> What if an important aged record was released nowadays? Me and my team worked on this idea by dealing with the record “London Calling” by The Clash (1979). 
+
 										</li>
 									</ul>
 								</div>
@@ -151,23 +157,24 @@
 					</div>
 					
 					<div class="col-md-3">
-						<div style="background-image: url('immagini/westworld.JPG'); background-position:left 20% top 50%;" class="sliding-card">
+						<div style="background-image: url('immagini/nasa.JPG'); background-position:left 20% top 50%; " class="sliding-card">
 							<div class="card-slider">
 								<div class="card-up"></div>
 								
 								<div class="card-down"> 
 									<ul>
 										<li>
-											<span>Titolo:</span> Westworld analysis
+											<span>Title:</span> NASA
 										</li>
 										</li>
 										<br>
 										<li>
 										<li>
-											<span>Corso:</span> Sociologia dei Media
+											<span>Course:</span> Elementi Visivi
 										</li>
 										<li>
-											<span>Descrizione:</span> Westworld analysis è l’analisi socio-culturale della serie tv di HBO uscita nel 2016. È stata svolta un’analisi approfondita del prodotto mediale, sviluppate una transmediazione e crossmediazione della serie tv, ed infine impaginato in un book con grafica coordinata alla comunicazione di Westworld.
+											<span>Description:</span> This project deals with the difficulties of creating a space based on different layers. Every layer is represented by an area limited by a hexagonal structure that reminds the one seen in 2001: A Space Odyssey. This model is conceived to be a recreational space for NASA.
+
 
 										</li>
 									</ul>
@@ -179,6 +186,49 @@
 				
 				</div>
 			</div>
+			</div>
+
+<section id="illustration" class="container-fluid" >
+	<div class="row" >
+		<br>
+
+		<h2>Illustrations</h2>
+		<br>
+		<br>
+		<div class="col-md-3" >
+			<div class="disegni" " >
+				<img src="immagini/dise.jpg" style="height: 275px; width: auto;">
+				
+			</div>
+			
+		</div>
+		<div class="col-md-3"  >
+			<div class="disegni" >
+							<img src="immagini/tesc.JPG" style="height: 275px; width: auto;">
+</div>
+			
+		</div>
+		<div class="col-md-3" >
+			<div class="disegni"  >
+							<img src="immagini/draw.JPG" style="height: 275px; width: auto;">
+
+			
+		</div>
+	</div>
+		<div class="col-md-3">
+			<div  class="disegni" >
+							<img src="immagini/prova.JPG" style="height: 275px; width: auto;">
+
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
 		</section>
 			<div style="background-color: #1e1e1c; ">
 		<br>
@@ -186,41 +236,23 @@
 		<br>
 		</div>
 	
-		<!--SVILUPPO-->
 		<section id="ts" class="container-fluid">
 			<div>
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
 							<div>
-							<h2>Techincal Skills</h2>
+						
 				
 							
 			<section id="designTools" >
- <div class="col-md-9" style=" left: 35%;">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="progress-wrapper" >
 
-                            <div class="progress-item">
-                                <span class="progress-title">HTML</span>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0"
-                                         aria-valuemax="100" style="width: 75%"><span
-                                            class="progress-percent"> 75%</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="progress-item">
-                                <span class="progress-title">CSS</span>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0"
-                                         aria-valuemax="100" style="width: 75%"><span
-                                            class="progress-percent"> 75%</span>
-                                    </div>
-                                </div>
-                            </div>
+ 			<h2>Techincal Skills</h2>
+ 			<br>
+                <div class="row" >
+                	<div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <div class="progress-wrapper" style="position: inherit; left:10%;">
 
                             <div class="progress-item">
                                 <span class="progress-title">Indesign</span>
@@ -241,9 +273,10 @@
                                     </div>
                                 </div>
                             </div>
+                           
 
                          
-                            </div>
+                         
 
                             <div class="progress-item">
                                 <span class="progress-title">Photoshop</span>
@@ -264,51 +297,49 @@
                                     </div>
                                 </div>
                             </div>
+                             <div class="col-md-4"></div>
                         </div>
                     </div>
                     </section>
                 </section>
 
-		<section id="ss" class="container-fluid">
+		<section id="informatica" class="container-fluid">
 		<div>
 			<div class="container">
 					<div class="row">
-						<div class="col-md-12">
+						<div class="col-md-4"></div>							
+						<div class="col-md-4">
+							<h2 style="text-align:center;">Coding's Exercises</h2>
+
 										
 				
-							<h3 style="text-align:center;">Soft Skill</h3>
-							<p style="font-size:0.85em;">Teamwork oriented and reliable, flexible and focused on goals. Very good in interpersonal relations and able to speak with project manager and client.  </p>
-
-							<p style="font-size:0.85em;">Good in project and deadlines management, able to be a leader as well as a good teammate. </p>
+							<br>
+							<ul id="esercizi">
+								<li>
+									<a href=""> Rotating Squares </a> 
+								</li>
+								<br>
+								<li>
+									<a href="">Planets</a> 
+								</li>
+								<br>
+								<li>
+									<a href=""> Moving Squares </a> 
+								</li>
+								<br>
+								<li>
+									<a href=""> Lucciola </a> 
+								</li>
+							</ul>
+							
 						</div>
+						<div class="col-md-4"></div>
 					
 			</div>
 		</div>
 		
 
 		
-		</section>
-
-
-		<section id="AboutMe" class="container-fluid">
-			<div class="container">
-				<div class="row">
-					<h2>About Me</h2>
-					<div class="col-md-4">
-						<h3>Origins</h3>
-						<p style="font-size:0.85em;">I was born on 23rd of July 1996 in Reggio Emilia, a beautiful city near Bologna. professiona Erbazzone eater since my first years, I attended Scientific highschool before deciding to enroll in Politecnico di Milano to study Communication Design.
-						I've always been interested in creating things and DIY stuff, the design world gave me the opportunity to deep explore the UCD and to increase my skills with both software and UX knowledges. </p>
-					</div>
-					<div class="col-md-4">
-						<h3>What I'm now</h3>
-						<p style="font-size:0.85em;">Now I'm a graphic designer with some other design skills. I'm gonna graduate in september in Communication Design, I've already been part of some relevant projects like PolimiXVans where I helped to the develope the graphic part of the exposition of Vans for the Fuorisalone 2018. I've already worked with two different design studio for a few months to understand the real dynamics of a working team and to prepare myself for the beginning of my working life. In my free time i play bass guitar and take photos with my analogic photocamera. </p>
-					</div>
-					<div class="col-md-4">
-						<h3>What I want to be</h3>
-						<p style="font-size:0.85em;">I want to be a better designer. I want to develop skills in communication, interaction and product design to design in a better, more functional, easier and more enjoyable way everything that people interact with. </p>
-					</div>
-				</div>
-			</div>
 		</section>
 
 
@@ -319,7 +350,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<p style="font-size: 0.7em;">MAIL: marco.valli@gmail.com <br> PHONE: 3494411675 <br> ADDRESS: Via Ciaia 3, 20158 Milan, MI</p>
+						<p style="font-size: 0.7em;">MAIL: gabriel.byrne@gmail.com <br> PHONE: 3317296 <br> ADDRESS: Via Ciaia 3, 20158 Milan, MI</p>
 					</div>
 				</div>
 			</div>
