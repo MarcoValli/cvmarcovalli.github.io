@@ -3,8 +3,12 @@
 
 }
 
+
+
+
 body{
 
+background-color: #1e1e1c;
 	hyphens: auto;
 		text-align: justify;
 
@@ -35,6 +39,10 @@ font-weight: lighter;
 	font-family: 'Montserrat', cursive;
 	font-size: 1.3em;
 }
+header{
+	background-color:  #1e1e1c;
+
+}
 
 
 @keyframes animafreccia {
@@ -47,6 +55,50 @@ font-weight: lighter;
 	from{transform: rotate(0deg);}
 	to{transform: rotate(360deg);}
 }
+
+#bordo {
+	border:0px;
+		background-color: rgba(0,0,0,0);
+
+}
+
+
+.navbar{
+	background-color: rgba(0,0,0,0);
+	margin: 0;
+	font-family: 'Montserrat', cursive;
+	border:0px;
+
+	
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:focus{
+	background-color: rgba(0,0,0,0);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 100px;
+	color:#EC7A55;
+	border:0px;
+
+}
+.navbar .container-fluid{
+	background-color: rgba(0,0,0,0);
+
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color:#ffffff;
+}
+.navbar-brand{
+	background-color: rgba(0,0,0,0);
+	width: 120px;
+	height: 120px;
+	position: absolute;
+}
+
+
+
+
+
+
 
 .freccia {
 	position: absolute;
@@ -65,7 +117,11 @@ font-weight: lighter;
 
 .intro{
 	background-image: url('../immagini/gabriel.jpg') ;
+
 	background-repeat: no-repeat;
+	background-size: cover;
+
+	padding: 0 ;
 
 	font-family: 'Montserrat', cursive;
 	position: center;
@@ -75,7 +131,7 @@ font-weight: lighter;
 .intro h1{
 	color: white;
 	text-align: center;
-	padding-top: 20%;
+	
 }
 
 
@@ -190,21 +246,24 @@ ul{
 	background-color: rgba(50,50,50,.8);
 	height: 50px;
 	width: 200px;
+padding: 5%;
 
 
 }
-#esercizi a{
-
-padding: 15px;
-margin:15px;
 
 
-}
 
 #esercizi{
 position: inherit;
 
 margin:10%;
+}
+
+#esercizi a{
+	color: white;
+	position: inherit;
+	
+
 }
 
 #foot{
@@ -267,3 +326,55 @@ margin:10%;
         margin-bottom: 50px;
         }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+.illus{
+	height: 275px; width: auto;
+}
+
+#d1{
+  
+  cursor: pointer;
+}
+
+#d2{
+  
+  cursor: pointer;
+}
+#d3{
+  
+  cursor: pointer;
+}
+#d4{
+  
+  cursor: pointer;
+}
+
+.screen{
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	z-index: 100;
+	padding:  20px;
+	background-color: #1e1e1c;
+	height: 100%;
+	width: 100%;
+	}
+.imgCentrata{
+	position: inherit;	top: 50%;
+	left: 50%;
+transform: translate(-50%, -50%);
+height: 500px;
+width: auto;
+}
+
